@@ -1,2 +1,3 @@
 # portfolio.github.io
-Resume static website.
+
+My personal portfolio static website.
