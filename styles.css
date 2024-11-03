@@ -12,8 +12,8 @@
 body {
     background: var(--bg-clr);
     color: white;
-    font-family: "Fredericka the Great", serif;
-    font-size: 14px;
+    font-family: "DM Serif Text", serif;
+    font-size: 16px;
     padding: 2rem 1rem;
 }
 
