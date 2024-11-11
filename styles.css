@@ -72,12 +72,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-#projects center {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    font-style: oblique;
-}
-
 .project-card {
     display: flex;
     flex-direction: column;
@@ -85,8 +79,17 @@ h2 {
     padding: 2rem 0;
 }
 
+.project-card nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .project-card div {
     padding-top: 1rem;
+}
+
+#summary p {
+    margin: 1rem 0;
 }
 
 @media screen and (min-width: 768px) {
