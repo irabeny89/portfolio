@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ernest Irabor - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --text-main: #1e293b;
+      --text-secondary: #475569;
+      --border: #e2e8f0;
+    }
+
+    @page {
+      margin: 1.5cm;
+      size: A4;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.5;
+      color: var(--text-main);
+      background: white;
+      font-size: 10pt;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .header-info h1 {
+      font-size: 24pt;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -0.02em;
+    }
+
+    .header-info h2 {
+      font-size: 14pt;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .contact-info {
+      text-align: right;
+      font-size: 9pt;
+      color: var(--text-secondary);
+    }
+
+    .contact-info a {
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+
+    section {
+      margin-bottom: 1.5rem;
+    }
+
+    h3 {
+      font-size: 12pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.2rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .summary p {
+      margin-bottom: 0.5rem;
+    }
+
+    .experience-item {
+      margin-bottom: 1rem;
+    }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .exp-sub {
+      display: flex;
+      justify-content: space-between;
+      font-style: italic;
+      color: var(--text-secondary);
+      margin-bottom: 0.4rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+    }
+
+    .skill-category {
+      font-weight: 600;
+    }
+
+    .projects-list .project-item {
+      margin-bottom: 0.8rem;
+    }
+
+    .project-name {
+      font-weight: 700;
+    }
+
+    .project-desc {
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="header-info">
+        <h1>Ernest Irabor</h1>
+        <h2>Full-Stack Software Engineer</h2>
+      </div>
+      <div class="contact-info">
+        <p>Lagos, Nigeria</p>
+        <p><a href="mailto:irabeny89@gmail.com">irabeny89@gmail.com</a></p>
+        <p><a href="https://linkedin.com/in/ernest-irabor-085486183">linkedin.com/in/ernest-irabor-085486183</a></p>
+        <p><a href="https://github.com/irabeny89">github.com/irabeny89</a></p>
+      </div>
+    </header>
+
+    <section class="summary">
+      <h3>Professional Summary</h3>
+      <p>
+        Dynamic and results-driven Full-Stack Software Engineer with extensive experience in architecting, developing,
+        and deploying high-performance web applications. Expert in the JavaScript and TypeScript ecosystems, with a
+        proven track record of delivering scalable digital products from conception to deployment.
+      </p>
+      <p>
+        Proficient in building robust CLI tools, libraries, and enterprise-grade mobile and web applications. Strong
+        expertise in distributed systems, API design, and cloud infrastructure, always prioritizing clean code,
+        security, and developer experience.
+      </p>
+    </section>
+
+    <section class="experience">
+      <h3>Work Experience</h3>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <span>Chief Technology Officer & Co-founder</span>
+          <span>April 2023 – Present</span>
+        </div>
+        <div class="exp-sub">
+          <span>Twinku</span>
+          <span>Lagos, Nigeria</span>
+        </div>
+        <ul>
+          <li>Spearheading technical strategy and architectural vision for a fintech platform, aligning technology
+            investments with business growth objectives.</li>
+          <li>Leading a cross-functional engineering team, fostering a culture of technical excellence through
+            mentorship and robust code review processes.</li>
+          <li>Architecting and maintaining a suite of digital products, ensuring high performance, security, and
+            scalability across the full stack.</li>
+          <li>Leveraging emerging technologies to optimize development workflows and enhance product features.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <span>Full-Stack Software Engineer</span>
+          <span>Nov 2021 – March 2023</span>
+        </div>
+        <div class="exp-sub">
+          <span>CINSOL - Creative Innovations for New Solutions</span>
+          <span>Lagos, Nigeria</span>
+        </div>
+        <ul>
+          <li>Designed and developed bespoke software solutions for diverse sectors, focusing on scalable web
+            architectures and intuitive user experiences.</li>
+          <li>Managed end-to-end delivery including database design, cloud hosting, and CI/CD pipeline implementation.
+          </li>
+          <li>Championed code quality through rigorous unit testing and automated integration flows, significantly
+            reducing production vulnerabilities.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <span>Web Developer</span>
+          <span>Nov 2020 – Oct 2021</span>
+        </div>
+        <div class="exp-sub">
+          <span>Dukadan Oil and Gas Nigeria Ltd</span>
+          <span>Lagos, Nigeria</span>
+        </div>
+        <ul>
+          <li>Developed and maintained web applications to streamline operations within the oil and gas sector.</li>
+          <li>Implemented responsive front-ends and secure backend APIs to support real-time data tracking and
+            operational reporting.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <span>Full-Stack Developer</span>
+          <span>Feb 2017 – Nov 2019</span>
+        </div>
+        <div class="exp-sub">
+          <span>Model Hub Solutions</span>
+          <span>Lagos, Nigeria</span>
+        </div>
+        <ul>
+          <li>Collaborated on the full lifecycle of digital products, contributing to UI/UX design, front-end
+            development, and architectural planning.</li>
+          <li>Built and documented robust APIs and backend services, ensuring seamless integration with consumer-facing
+            components.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h3>Technical Skills</h3>
+      <div class="skills-grid">
+        <div><span class="skill-category">Languages:</span> JavaScript (ES6+), TypeScript, Go, Python, Rust, Solidity
+        </div>
+        <div><span class="skill-category">Frontend:</span> React.js, Next.js, Vue.js, Tailwind CSS, HTML5, CSS3</div>
+        <div><span class="skill-category">Backend:</span> Node.js, Bun, GraphQL, REST APIs, Go, Deno</div>
+        <div><span class="skill-category">Databases:</span> PostgreSQL, MongoDB, MySQL, SQLite, Neo4j</div>
+        <div><span class="skill-category">DevOps/Tools:</span> AWS, Digital Ocean, Vercel, Netlify, Docker, Git, CI/CD,
+          Jest</div>
+      </div>
+    </section>
+
+    <section class="projects-list">
+      <h3>Featured Projects</h3>
+      <div class="project-item">
+        <span class="project-name">Sqlmig8:</span>
+        <span class="project-desc">
+          High-performance CLI tool for automated database migrations, optimized for developer
+          productivity.
+        </span>
+      </div>
+      <div class="project-item">
+        <span class="project-name">Paystack SDK:</span>
+        <span class="project-desc">
+          Cross-runtime TypeScript SDK for seamless payment integration across Node.js, Deno,
+          and Bun.
+        </span>
+      </div>
+      <div class="project-item">
+        <span class="project-name">MoBa Banking:</span>
+        <span class="project-desc">
+          Secure PWA banking application with real-time transaction processing and advanced
+          account management.
+        </span>
+      </div>
+      <div class="project-item">
+        <span class="project-name">Rkommend:</span>
+        <span class="project-desc">
+          An automated recommendation management system for students and faculty, streamlining
+          overseas study application processes.
+        </span>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
